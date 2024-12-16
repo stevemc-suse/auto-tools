@@ -6,7 +6,7 @@
 # Set the number of control plane nodes
 CONTROL_PLANE_NODES=3
 # Set the IP addresses of the control plane nodes
-CONTROL_PLANE_IPS=("192.168.1.10" "192.168.1.11" "192.168.1.12")
+CONTROL_PLANE_IPS=("10.144.117.23" "10.144.117.246" "10.144.116.63")
 # Set the token for cluster authentication
 TOKEN=$(openssl rand -hex 32)
 
